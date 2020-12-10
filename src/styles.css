@@ -1,0 +1,96 @@
+@import url(//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular + Book);
+@font-face {
+  font-family: "Circular Book";
+  src: url("https://db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("https://db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("https://db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("https://db.onlinewebfonts.com/t/02d8f1743ede250c7c9865f1574d7cc6.svg#Circular Book")
+      format("svg"); /* iOS 4.1- */
+}
+* {
+  margin: 0;
+  font-family: "Circular Book";
+  letter-spacing: 0.5px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+  color: #ffffffd7;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 10rem;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* width: 70%; */
+}
+
+button {
+  padding: 0.4rem 2rem;
+  width: max-content;
+  font-weight: 700;
+  font-size: large;
+  background-color: transparent;
+  color: #ffffffd7;
+  border-radius: 7px;
+  border-color: #ffffffd7;
+  margin: 1rem 0.5rem;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ffffffd7;
+  color: #000000;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 0.5rem;
+}
+
+.list-item {
+  padding: 0.2rem;
+  border: solid #ffffffd7 2px;
+  border-radius: 7px;
+  width: 90%;
+  margin: 0.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #9ecb3d;
+}
+
+a:hover {
+  text-decoration: underline;
+}
